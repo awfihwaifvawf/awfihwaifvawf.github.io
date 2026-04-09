@@ -8,7 +8,7 @@ config:
     forceDark: true
     effect: lightning
     hero:
-      name: Theme Plume
+      name: 天元突破
       tagline: VuePress Next Theme
       text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
       actions:
