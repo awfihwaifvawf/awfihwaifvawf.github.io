@@ -16,12 +16,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'BlogPage',
-  description: 'Blog',
+  title: 'GuitarHero',
+  description: 'The Story of Guitar Hero',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/test.svg' }],
   ],
 
   bundler: viteBundler(),
@@ -29,7 +29,14 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+     hostname: 'https://hello2020.ltd/',
+    
+    navbar: [
+      { text: '首页', link: '/' },
+      { text: '博客', link: '/blog/' },
+      { text: '标签', link: '/blog/tags/' },
+      { text: '归档', link: '/blog/archives/' }
+    ],
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',

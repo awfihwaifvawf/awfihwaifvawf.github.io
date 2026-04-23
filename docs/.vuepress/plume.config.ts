@@ -18,7 +18,7 @@ import collections from './collections'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/test.svg',
 
   appearance: true,  // 配置 深色模式
 
@@ -40,18 +40,18 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+   footer: {
+     message: 'Power by <a target="_blank" href="https://www.bilibili.com/bangumi/play/ep21265?spm_id_from=333.337.0.0&from_spmid=666.25.episode.0">轻音少女</a>',
+     copyright: '',
+   },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: '天元突破',
-    description: '我的钻头可是能突破天际的钻头啊！！！',
+    avatar: '/wei.png',
+    name: 'GuitarHero',
+    description: '喜欢吉他的少年的日常记录',
     // circle: true,
     // location: '',
     // organization: '',
