@@ -50,7 +50,7 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: '/wei.png',
-    name: 'GuitarHero',
+    name: 'Kamina',
     description: '喜欢吉他的少年的日常记录',
     // circle: true,
     // location: '',

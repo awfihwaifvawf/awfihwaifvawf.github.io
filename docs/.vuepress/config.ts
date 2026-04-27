@@ -16,7 +16,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'GuitarHero',
+  title: 'K-ON',
   description: 'The Story of Guitar Hero',
 
   head: [
