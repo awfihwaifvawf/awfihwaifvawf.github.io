@@ -1,3 +1,8 @@
+---
+title: 重写compare方法导致传递性被破坏的报错
+createTime: 2026/06/20 10:46:06
+permalink: /blog/ndnyeolr/
+---
 问题代码
 ```java
             Collections.sort(userList, new Comparator<UserList>() {
