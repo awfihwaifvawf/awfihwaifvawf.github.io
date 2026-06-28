@@ -1,0 +1,3 @@
+Sitemap: https://hello2020.ltd/sitemap.xml
+User-agent:*
+Disallow:
